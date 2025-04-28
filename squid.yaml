@@ -14,3 +14,6 @@ deploy:
     cmd: [ "sqd", "process:prod" ]
   api:
     cmd: [ "sqd", "serve:prod" ]
+
+scale:
+  dedicated: false
